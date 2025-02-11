@@ -1,0 +1,11 @@
+.stAppViewContainer {
+    background-color: #113D52;
+}
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh; /* Margem superior para centralizar o conteúdo */
+}
