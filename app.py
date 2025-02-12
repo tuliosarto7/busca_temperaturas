@@ -1,8 +1,11 @@
+import os
+from dotenv import load_dotenv
 import streamlit as st
 import requests
 
+load_dotenv()
 
-key = "229c8ef774ad9a9b4ca5a10c6b98430c"
+key = os.getenv("API_KEY")
 
 with open("style.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
